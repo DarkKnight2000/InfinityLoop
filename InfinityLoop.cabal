@@ -8,9 +8,9 @@ cabal-version: 1.12
 
 name:           InfinityLoop
 version:        0.1.0.0
-description:    Please see the README on GitHub at <https://github.com/IITH-SBJoshi/haskell-13/blob/master/README.md>
-homepage:       https://github.com/IITH-SBJoshi/haskell-13#readme
-bug-reports:    https://github.com/IITH-SBJoshi/haskell-13/issues
+description:    Please see the README on GitHub at <https://github.com/DarkKnight2000/InfinityLoop>
+homepage:       https://github.com/DarkKnight2000/InfinityLoop
+bug-reports:    https://github.com/DarkKnight2000/InfinityLoop/issues
 author:         Haskell 13 IITH
 copyright:      2019 Haskell 13 IITH here
 license:        BSD3

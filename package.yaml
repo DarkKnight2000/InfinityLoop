@@ -1,6 +1,6 @@
 name:                InfinityLoop
 version:             0.1.0.0
-github:              "IITH-SBJoshi/haskell-13"
+github:              "DarkKnight2000/InfinityLoop"
 license:             BSD3
 author:              "Haskell 13 IITH"
 copyright:           "2019 Haskell 13 IITH here"
@@ -10,10 +10,10 @@ extra-source-files:
 - ChangeLog.md
 
 # Metadata used when publishing your package
-# synopsis:            A puzzle game made with Gloss
-# category:            Game
+synopsis:            A puzzle game made with Gloss
+category:            Game
 
-description:         Please see the README on GitHub at <https://github.com/IITH-SBJoshi/haskell-13/blob/master/README.md>
+description:         Please see the README on GitHub at <https://github.com/DarkKnight2000/InfinityLoop>
 
 dependencies:
 - base >= 4.7 && < 5
