@@ -37,24 +37,25 @@ copy of the project and running.Run the</p>
 
 ```
   $ git init
-  $ git clone https://github.com/IITH-SBJoshi/haskell-13.git
+  $ git clone https://github.com/DarkKnight2000/InfinityLoop
 ```
 
 <p>The repository will be downloaded.<br>
 or<br>
-you can directly go to https://github.com/IITH-SBJoshi/haskell-13<br>
+you can directly go to https://github.com/DarkKnight2000/InfinityLoop<br>
 and press download which is the the right top corner.</p>
 <p>Running Infinity loop:</p>
-<p>It is cloned into the folder "haskell-13", Go into the directory and<br>
+<p>It is cloned into the folder "InfinityLoop", Go into the directory and<br>
 enter the following commands.</p>
 <p>If this is the first Haskell program you're running on<br>
 your machine you need to enter one more command here</p>
 
 ```
+  $ cd InfinityLoop
   $ stack setup
 ```
 
-<p>To build game project</p>
+<p>To build game project (needs to be done only once after downloading the project)</p>
 
 ```
   $ stack build
@@ -66,13 +67,15 @@ your machine you need to enter one more command here</p>
   $ stack exec InfinityLoop-exe
 ```
 
-<p>The game window will be opened,enjoy the game!!!.</p>
+<p>The game window will be opened, enjoy the game!!!.</p>
 <h2>Game Instructions</h2>
 <p>Once you choose and start puzzle to play:<br>
 1.Use arrow keys to change the block you want to rotate(highlighted block).<br>
 2.To rotate a block press ENTER.<br>
 3.To quit the game press 'q'.</p>
-<p>For all the other screens,the instructions are mentioned on the screen itself.</p>
+<p>For all the other screens, the instructions are mentioned on the screen itself.</p>
+
+<p> Tested in Ubuntu 18.04 ,Stack 1.9.3
 
 <h2>License</h2>
 <p>All Images used in the game are not subject to any license and are made by the team.<br>
