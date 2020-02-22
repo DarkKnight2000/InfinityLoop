@@ -1,0 +1,46 @@
+name:                InfinityLoop
+version:             0.1.0.0
+github:              "IITH-SBJoshi/haskell-13"
+license:             BSD3
+author:              "Haskell 13 IITH"
+copyright:           "2019 Haskell 13 IITH here"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            A puzzle game made with Gloss
+# category:            Game
+
+description:         Please see the README on GitHub at <https://github.com/IITH-SBJoshi/haskell-13/blob/master/README.md>
+
+dependencies:
+- base >= 4.7 && < 5
+- gloss
+- random
+- time
+library:
+  source-dirs: src
+
+executables:
+  InfinityLoop-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - InfinityLoop
+
+tests:
+  InfinityLoop-test:
+    main:                Spec.hs
+    source-dirs:         test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - InfinityLoop
