@@ -45,8 +45,7 @@ or<br>
 you can directly go to https://github.com/DarkKnight2000/InfinityLoop<br>
 and press download which is the the right top corner.</p>
 <p>Running Infinity loop:</p>
-<p>It is cloned into the folder "InfinityLoop", Go into the directory and<br>
-enter the following commands.</p>
+<p>It is cloned into the folder "InfinityLoop".</p>
 <p>If this is the first Haskell program you're running on<br>
 your machine you need to enter one more command here</p>
 
